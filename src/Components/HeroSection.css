@@ -129,3 +129,7 @@ video{
   margin: 5px 0;
   color: #333;
 }
+
+.hero-content {
+  font-weight: 200;
+}

@@ -30,15 +30,14 @@ function HeroSection() {
           </Button>
         </div>
       </div>
+      
       <div className='info-section'>
-        <h2>Intelligent Pairing Process</h2>
-        <p>Leverages unique preferences, interests, and daily habits to suggest the perfect roommates, making the search more efficient and stress-free.</p>
-        <h2>Effortless Roommate Search</h2>
-        <p>Skip the stress of traditional roommate searches! Our advanced algorithm considers your routine, social habits, and personal preferences to connect you with like-minded flatmates—making co-living a breeze.</p>
         <h2>Discover Your Future Roommate Here</h2>
         <img src='/images/map.png' alt='World Map' />
         <p>Made 50,000+ Matches With verified profiles</p>
+        <br></br>
         <p onClick={toggleCities} style={{ cursor: 'pointer', color: '#000000' }}>See Top Cities</p>
+        <br></br>
         {showCities && (
           <ul className='cities-list'>
             <li>Mumbai</li>
@@ -52,7 +51,10 @@ function HeroSection() {
             <li>Jaipur</li>
             <li>Surat</li>
           </ul>
-        )}
+          
+        )
+        }
+        <br></br>
       </div>
     </div>
   );
