@@ -35,6 +35,9 @@ const Profile = () => {
             </span>
           ))}
         </div>
+        <h3>Contact Information</h3>
+        <p>Contact Number: {profile.contactNumber || 'N/A'}</p>
+        <p>Email: {profile.email || 'N/A'}</p>
       </div>
     </div>
   );

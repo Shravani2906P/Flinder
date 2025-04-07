@@ -1,19 +1,23 @@
 /* Basic styles for the potential matches listing page */
 
 .profile-card {
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  padding: 16px;
-  margin: 16px 0;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  padding: 20px;
+  transition: transform 0.2s;
   display: flex;
   align-items: center;
 }
 
+.profile-card:hover {
+  transform: translateY(-5px);
+}
+
 .profile-image {
-  width: 30px;
-  height: 80px;
   border-radius: 50%;
-  margin-right: 16px;
+  margin-right: 20px;
 }
 
 .profile-details {
@@ -21,21 +25,22 @@
 }
 
 .profile-name {
-  font-size: 18px;
+  font-size: 1.5rem;
   font-weight: bold;
+  margin-bottom: 10px;
 }
 
 .profile-info {
-  margin: 4px 0;
+  margin-bottom: 5px;
 }
 
 .match-percentage {
-  font-size: 14px;
-  color: #4CAF50;
+  color: green;
   font-weight: bold;
+  margin-top: 10px;
 }
 
 .preferences {
-  font-size: 14px;
-  color: #555;
-} 
+  margin-top: 10px;
+  font-style: italic;
+}

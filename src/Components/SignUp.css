@@ -1,0 +1,5 @@
+.form-group label::after {
+  content: '*';
+  color: red !important;
+  margin-left: 4px;
+} 

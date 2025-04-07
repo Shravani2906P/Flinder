@@ -76,6 +76,8 @@ const Choice = () => {
             <div className="profile-info">{match.location}</div>
             <div className="profile-info">Age: {match.age}</div>
             <div className="profile-info">Occupation: {match.occupation}</div>
+            <div className="profile-info">Contact Number: {match.contactNumber || 'N/A'}</div>
+            <div className="profile-info">Email: {match.email || 'N/A'}</div>
             <div className="match-percentage">{match.matchPercentage}% Match</div>
             <div className="preferences">Preferences: {match.preferences.join(', ')}</div>
           </div>

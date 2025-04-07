@@ -19,6 +19,8 @@ const SignUp = () => {
   const [age, setAge] = useState("");
   const [city, setCity] = useState("");
   const [occupation, setOccupation] = useState("");
+  const [contactNumber, setContactNumber] = useState("");
+  const [email, setEmail] = useState("");
 
   const handleRegister = (e) => {
     e.preventDefault();
@@ -101,6 +103,16 @@ const SignUp = () => {
           <div className="form-group">
             <label>Your Occupation*</label>
             <input type="text" placeholder="Please enter your occupation" value={occupation} onChange={(e) => setOccupation(e.target.value)} />
+          </div>
+
+          <div className="form-group">
+            <label>Contact Number*</label>
+            <input type="tel" placeholder="Please enter your contact number" value={contactNumber} onChange={(e) => setContactNumber(e.target.value)} />
+          </div>
+
+          <div className="form-group">
+            <label>Email Address*</label>
+            <input type="email" placeholder="Please enter your email address" value={email} onChange={(e) => setEmail(e.target.value)} />
           </div>
 
           <div className="form-group">
