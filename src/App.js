@@ -13,6 +13,7 @@ import Preferences from './Components/pages/preferences';
 import Profile from './Components/pages/Profile';
 import { UserProvider } from './Components/UserContext';
 import Footer from './Components/Footer';
+import Services from './Components/pages/Services';
 
 function App() {
   return (
@@ -34,6 +35,7 @@ function App() {
           <Route path="/choice" element={<Choice />} />
           <Route path="/preferences" element={<Preferences />} />
           <Route path="/profile" element={<Profile />} />
+          <Route path="/services" element={<Services />} />
         </Routes>
         <Footer />
       </Router>

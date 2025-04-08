@@ -13,6 +13,16 @@ export const preferencesData = [
   { id: 8, name: "Movies", image: "/images/movies.png" },
   { id: 9, name: "Photography", image: "/images/photography.png" },
   { id: 10, name: "Dancing", image: "/images/dancing.png" },
+  { id: 11, name: "Non-Smoker", image: "/images/non-smoker.jpeg" },
+  { id: 12, name: "Non-Drinker", image: "/images/non-drinker.png" },
+  { id: 13, name: "Pet-Friendly", image: "/images/pet.png" },
+  { id: 14, name: "Night Owl", image: "/images/owl.webp" },
+  { id: 15, name: "Morning Bird", image: "/images/bird.png" },
+  { id: 16, name: "Yoga", image: "/images/yoga.webp" },
+  { id: 17, name: "Meditation", image: "/images/meditation.png" },
+  { id: 18, name: "Art", image: "/images/art.png" },
+  { id: 19, name: "Tech Enthusiast", image: "/images/tech.png" },
+  { id: 20, name: "Foodie", image: "/images/foodie.png" },
 ];
 
 const Preferences = () => {
